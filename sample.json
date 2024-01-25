@@ -8,4 +8,4 @@
     "outcome": { "name": "", "type": "", "attributes": [] },
     "decisions": [],
     "headers": [{ "display": "", "condition": "" }],
-    "testcases": [],}
+    "testcases": []}
