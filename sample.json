@@ -1,4 +1,11 @@
-{
-  "config": {
-  }
-}
+{id: "",
+    name: "sample",
+    description: "",
+    type: "decision",
+    facts: [],
+    inputs: [],
+    inputconditions: [],
+    outcome: { name: "", type: "", attributes: [] },
+    decisions: [],
+    headers: [{ display: "", condition: "" }],
+    testcases: [],}
