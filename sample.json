@@ -2,6 +2,7 @@
     "name": "sample",
     "description": "",
     "type": "decision",
+    "origin":"remote",
     "facts": [],
     "inputs": [],
     "inputconditions": [],
