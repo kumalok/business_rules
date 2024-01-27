@@ -1,0 +1,92 @@
+{
+  "name": "calculate air fare",
+  "description": "",
+  "type": "decision",
+  "id": "0a3b40de-1f7c-411e-91a1-24cd1e8b08d1",
+  "facts": [],
+  "inputs": [
+    {
+      "name": "departureCity",
+      "type": "String"
+    },
+    {
+      "name": "arrivalCity",
+      "type": "String"
+    }
+  ],
+  "inputconditions": [],
+  "outcome": {
+    "name": "price",
+    "type": "Double",
+    "attributes": []
+  },
+  "decisions": [
+    {
+      "outcomes": [
+        {
+          "value": "1000",
+          "valuedisplay": "1000",
+          "expression": "price",
+          "display": "",
+          "elmtype": "Double"
+        }
+      ],
+      "conditions": [
+        {
+          "type": "and",
+          "condition": "departureCity",
+          "display": "departure city",
+          "elmtype": "String",
+          "operator": "===",
+          "operatordisplay": "is equal to",
+          "resultdisplay": "Hyderabad",
+          "result": "Hyderabad"
+        },
+        {
+          "type": "and",
+          "condition": "arrivalCity",
+          "display": "arrival city",
+          "elmtype": "String",
+          "operator": "===",
+          "operatordisplay": "is equal to",
+          "resultdisplay": "Pune",
+          "result": "Pune"
+        }
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "display": "departure city",
+      "condition": "departureCity",
+      "elmtype": "String"
+    },
+    {
+      "display": "arrival city",
+      "condition": "arrivalCity",
+      "elmtype": "String"
+    }
+  ],
+  "testcases": [
+    {
+      "inputs": [
+        {
+          "type": "String",
+          "name": "departureCity",
+          "value": "Hyderabad"
+        },
+        {
+          "type": "String",
+          "name": "arrivalCity",
+          "value": "Pune"
+        }
+      ],
+      "result": {
+        "name": "price",
+        "type": "Double",
+        "value": "1000"
+      },
+      "status": "Pass"
+    }
+  ]
+}
