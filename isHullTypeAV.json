@@ -1,0 +1,52 @@
+{
+  "id": "5b3ed3d4-c667-44b6-b994-1eaf09e2f512",
+  "name": "Is Hull Type AV",
+  "description": "",
+  "type": "condition",
+  "origin": "local",
+  "facts": [],
+  "inputs": [
+    {
+      "name": "hullTypeCd",
+      "type": "String"
+    }
+  ],
+  "inputconditions": [
+    {
+      "title": "Is Hull Type AV",
+      "inputs": [
+        {
+          "name": "hullTypeCd",
+          "type": "String"
+        }
+      ],
+      "expressions": [
+        {
+          "condition": "hullTypeCd",
+          "display": "hull type cd",
+          "elmtype": "String",
+          "operator": "===",
+          "operatordisplay": "is equal to",
+          "resultdisplay": "AV",
+          "result": "AV",
+          "expressions": []
+        }
+      ],
+      "expressionGroup": " && "
+    }
+  ],
+  "outcome": {
+    "name": "",
+    "type": "",
+    "attributes": []
+  },
+  "decisions": [],
+  "headers": [
+    {
+      "display": "",
+      "condition": ""
+    }
+  ],
+  "testcases": [],
+  "path": "sample.json"
+}
